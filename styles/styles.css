@@ -1,0 +1,20 @@
+/*  aplicamos estilo a el primer div en index   */
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+
+.flex-center > h1 {
+  font-family: cursive;
+  color: blue;
+}
+
+/* acomodamos la imagen que esta en la parte superior*/
+
+#imagen-onepice {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
