@@ -25,3 +25,37 @@
   width: 70%;
   margin: 10px;
 }
+
+
+.col-sm-8>p{
+  text-align: justify;
+}
+
+.biografia{
+  width: 300px;
+}
+
+.cabecera-table{
+  font-size: 150%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cabecera-personalinfo{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.cabecera-familyinfo{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.cabecera-profesionalinfo{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+}
+
