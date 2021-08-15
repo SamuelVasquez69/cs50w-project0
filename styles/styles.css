@@ -75,3 +75,16 @@
 #infoOnePiece{
   margin: 20px;
 }
+
+#me{
+  border-radius: 50%;
+  width: 80%;
+}
+
+.personal_info{
+  padding-top: 70px;
+}
+
+.col-lg-9>h1{
+  padding-top: 25px;
+}
