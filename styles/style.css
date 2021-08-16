@@ -1,7 +1,11 @@
 /*  aplicamos estilo a el primer div en index   */
 .flex-center {
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   margin: auto;
 }
@@ -13,99 +17,93 @@
 }
 
 /* acomodamos la imagen que esta en la parte superior*/
-
 #imagen-onepice {
   width: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-#onepiece-poster{
+#onepiece-poster {
   height: 70%;
   width: 70%;
   margin: 10px;
 }
 
-
-.col-sm-8>p{
+.col-sm-8 > p {
   text-align: justify;
 }
 
-.biografia{
-  width: 100%;
-  vertical-align: middle;
+.biografia {
+  width: 300px;
 }
 
-.cabecera-table{
+.cabecera-table {
   font-size: 150%;
   text-align: center;
   vertical-align: middle;
 }
 
-.cabecera-personalinfo{
+.cabecera-personalinfo {
   text-align: center;
   font-size: 17px;
   padding: 10px;
 }
 
-.cabecera-familyinfo{
+.cabecera-familyinfo {
   text-align: center;
   font-size: 17px;
   padding: 10px;
 }
 
-.cabecera-profesionalinfo{
+.cabecera-profesionalinfo {
   text-align: center;
   font-size: 17px;
   padding: 10px;
 }
 
-#foto-mangaka{
+#foto-mangaka {
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-.contenedor_info{
+.contenedor_info {
   margin: 40px;
 }
-.contenedor_info>p{
+
+.contenedor_info > p {
   text-align: justify;
   font-size: 20px;
 }
 
-#infoOnePiece{
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 25px;
+#infoOnePiece {
+  margin: 20px;
 }
 
-#me{
+#me {
   border-radius: 50%;
   width: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.personal_info{
+.personal_info {
   padding-top: 70px;
 }
 
-.col-lg-9>h1{
+.col-lg-9 > h1 {
   padding-top: 25px;
 }
-.container>section>h2{
+
+.container > section > h2 {
   padding-top: 50px;
   padding-bottom: 15px;
 }
 
-.social_images{
+.social_images {
   width: 50px;
   height: 50px;
   margin: 20px;
 }
 
-.imagen-logo-navbar{
+.imagen-logo-navbar {
   height: 40px;
   width: 40px;
-}
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,106 @@
+/*  aplicamos estilo a el primer div en index   */
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+  }
+  
+  .flex-center > h1 {
+    font-family: cursive;
+    color: blue;
+    padding-bottom: 10px;
+  }
+  
+  /* acomodamos la imagen que esta en la parte superior*/
+  
+  #imagen-onepice {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #onepiece-poster{
+    height: 70%;
+    width: 70%;
+    margin: 10px;
+  }
+  
+  
+  .col-sm-8>p{
+    text-align: justify;
+  }
+  
+  .biografia{
+    width: 300px;
+  }
+  
+  .cabecera-table{
+    font-size: 150%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .cabecera-personalinfo{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  .cabecera-familyinfo{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  .cabecera-profesionalinfo{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  #foto-mangaka{
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .contenedor_info{
+    margin: 40px;
+  }
+  .contenedor_info>p{
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  #infoOnePiece{
+    margin: 20px;
+  }
+  
+  #me{
+    border-radius: 50%;
+    width: 80%;
+  }
+  
+  .personal_info{
+    padding-top: 70px;
+  }
+  
+  .col-lg-9>h1{
+    padding-top: 25px;
+  }
+  .container>section>h2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  
+  .social_images{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+  }
+  
+  .imagen-logo-navbar{
+    height: 40px;
+    width: 40px;
+  }
+  
