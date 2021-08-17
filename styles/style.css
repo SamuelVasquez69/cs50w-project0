@@ -1,15 +1,11 @@
 /*  aplicamos estilo a el primer div en index   */
+/*ejemplo de variable sass*/
 .flex-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin: auto;
 }
-
 .flex-center > h1 {
   font-family: cursive;
   color: blue;
@@ -43,19 +39,7 @@
   vertical-align: middle;
 }
 
-.cabecera-personalinfo {
-  text-align: center;
-  font-size: 17px;
-  padding: 10px;
-}
-
-.cabecera-familyinfo {
-  text-align: center;
-  font-size: 17px;
-  padding: 10px;
-}
-
-.cabecera-profesionalinfo {
+.cabecera-personalinfo, .cabecera-profesionalinfo, .cabecera-familyinfo {
   text-align: center;
   font-size: 17px;
   padding: 10px;
@@ -69,7 +53,6 @@
 .contenedor_info {
   margin: 40px;
 }
-
 .contenedor_info > p {
   text-align: justify;
   font-size: 20px;
@@ -90,6 +73,16 @@
 
 .col-lg-9 > h1 {
   padding-top: 25px;
+}
+@media (min-width: 500px) {
+  .col-lg-9 > h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .col-lg-9 > h1 {
+    font-size: 30px;
+  }
 }
 
 .container > section > h2 {

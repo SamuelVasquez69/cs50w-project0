@@ -1,15 +1,16 @@
 /*  aplicamos estilo a el primer div en index   */
+$cpillin : blue; /*ejemplo de variable sass*/
+
 .flex-center {
     justify-content: center;
     align-items: center;
     position: relative;
     margin: auto;
-  }
-  
-  .flex-center > h1 {
-    font-family: cursive;
-    color: blue;
-    padding-bottom: 10px;
+    &> h1 {
+      font-family: cursive;
+      color: $cpillin;
+      padding-bottom: 10px;
+    }
   }
   
   /* acomodamos la imagen que esta en la parte superior*/
@@ -48,15 +49,11 @@
   }
   
   .cabecera-familyinfo{
-    text-align: center;
-    font-size: 17px;
-    padding: 10px;
+    @extend .cabecera-personalinfo
   }
   
   .cabecera-profesionalinfo{
-    text-align: center;
-    font-size: 17px;
-    padding: 10px;
+    @extend .cabecera-personalinfo
   }
   
   #foto-mangaka{
@@ -66,11 +63,12 @@
   
   .contenedor_info{
     margin: 40px;
+    &> p{
+      text-align: justify;
+      font-size: 20px;
+    }
   }
-  .contenedor_info>p{
-    text-align: justify;
-    font-size: 20px;
-  }
+ 
   
   #infoOnePiece{
     margin: 20px;
@@ -87,6 +85,13 @@
   
   .col-lg-9>h1{
     padding-top: 25px;
+    @media  (min-width: 500px) {
+      font-size: 40px;
+    }
+    @media (max-width: 500px) {
+          font-size: 30px;
+        
+    }
   }
   .container>section>h2{
     padding-top: 50px;
@@ -103,4 +108,8 @@
     height: 40px;
     width: 40px;
   }
+
+ 
+
+
   
