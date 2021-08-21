@@ -109,7 +109,24 @@ $cpillin : blue; /*ejemplo de variable sass*/
     width: 40px;
   }
 
- 
-
+  h2{
+    color:blue;
+    font-family: cursive;
+  }
+  h3{
+    font-family: cursive;
+    color: blue;
+  }
+  a{
+    @extend h2
+  }
+  th{
+    
+    font-family: cursive;
+  }
+  p::selection{
+    color:white;
+    background-color: blue;
+  }
 
   

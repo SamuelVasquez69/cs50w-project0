@@ -85,7 +85,7 @@
   }
 }
 
-.container > section > h2 {
+.container > section > h2, .container > section > a {
   padding-top: 50px;
   padding-bottom: 15px;
 }
@@ -99,4 +99,28 @@
 .imagen-logo-navbar {
   height: 40px;
   width: 40px;
+}
+
+h2, a {
+  color: blue;
+  font-family: cursive;
+}
+
+h3 {
+  font-family: cursive;
+  color: blue;
+}
+
+th {
+  font-family: cursive;
+}
+
+p::-moz-selection {
+  color: white;
+  background-color: blue;
+}
+
+p::selection {
+  color: white;
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
